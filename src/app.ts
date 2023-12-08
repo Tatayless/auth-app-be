@@ -4,7 +4,6 @@ import cors from 'cors';
 
 const startServer = async () => {
   const app = express();
-
   app
     .use(cors())
     .use(bodyParser.json())
